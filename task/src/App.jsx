@@ -45,10 +45,8 @@
 //context-Api
 import React, { createContext, useContext, useState } from 'react';
 
-// 1. Create Context
 const UserContext = createContext();
 
-// 2. Create a provider component
 const UserProvider = ({ children }) => {
   const [user, setUser] = useState({ name: 'John Doe', age: 25 });
 
@@ -58,8 +56,6 @@ const UserProvider = ({ children }) => {
     </UserContext.Provider>
   );
 };
-
-// 3. Consumer Component using useContext
 const UserProfile = () => {
   const { user } = useContext(UserContext);
 
@@ -72,7 +68,6 @@ const UserProfile = () => {
   );
 };
 
-// 4. Another component to update context
 const UpdateUser = () => {
   const { setUser } = useContext(UserContext);
 
@@ -85,7 +80,6 @@ const UpdateUser = () => {
   );
 };
 
-// 5. App Component
 const App = () => {
   return (
     <UserProvider>
