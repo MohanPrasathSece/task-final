@@ -1,0 +1,43 @@
+/* src/video-player/VideoPlayerStyle.css */
+.video-player-container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #be0000; /* Dark blue background */
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  color: white;
+}
+
+.video-wrapper {
+  margin: 20px 0;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ff77a9; /* Light pink border */
+  border-radius: 10px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.control-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff; /* Blue button background */
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.control-button:hover {
+  background-color: #ff77a9; /* Pink hover effect */
+}

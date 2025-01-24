@@ -1,0 +1,111 @@
+.app {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+}
+
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+}
+
+.header__button {
+  margin-left: auto;
+  padding: 8px 20px;
+  font-size: 16px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.banner {
+  position: relative;
+  height: 400px;
+  color: white;
+  padding: 60px 30px;
+}
+
+.banner__contents {
+  z-index: 100;
+}
+
+.banner__title {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.banner__buttons {
+  margin-top: 20px;
+}
+
+.banner__button {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.banner__description {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  width: 50%;
+}
+
+.banner--fadeBottom {
+  position: absolute;
+  bottom: 0;
+  height: 7.4rem;
+  background-gradient: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.8));
+  width: 100%;
+}
+
+.rows {
+  margin-left: 20px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.row__title {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.row__posters {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.movie-card {
+  margin-right: 10px;
+}
+
+.movie-card__image {
+  width: 150px;
+  height: 300px; 
+  object-fit: cover; 
+}
+
+.movie-card__title {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}

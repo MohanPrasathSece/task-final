@@ -1,0 +1,11 @@
+/* src/global_styles.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff;
+}
+
+h1 {
+  color: #e5e5e5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
