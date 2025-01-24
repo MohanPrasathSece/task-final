@@ -1,0 +1,31 @@
+/* Define the grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+    gap: 10px; /* Spacing between grid items */
+    padding: 10px; /* Padding around the grid */
+  }
+  
+  /* Style the grid items */
+  .grid-item {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+  }
+  
+  /* Responsive design: 2 columns on smaller screens */
+  @media (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 equal-width columns */
+    }
+  }
+  
+  /* Responsive design: 1 column on very small screens */
+  @media (max-width: 400px) {
+    .grid-container {
+      grid-template-columns: 1fr; /* 1 column */
+    }
+  }
