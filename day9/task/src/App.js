@@ -73,7 +73,7 @@ function App() {
       </div>
 
       {/* Footer */}
-      <footer>Made with ❤️ by Your Name</footer>
+     
     </div>
   );
 }
