@@ -1,0 +1,109 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f4f4f9;
+  }
+  
+  .column {
+    width: 30%;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-height: 300px;
+    overflow-y: auto;
+    margin-right: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .column h3 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #4CAF50;
+  }
+  
+  .task-count {
+    font-size: 1em;
+    color: #777;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .task {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task span {
+    font-size: 0.9em;
+    color: #333;
+  }
+  
+  .task button {
+    background-color: #FF4C4C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .task button:hover {
+    background-color: #e60000;
+  }
+  
+  .add-task {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .add-task input,
+  .add-task select {
+    padding: 8px;
+    margin: 5px 0;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-task button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .add-task button:hover {
+    background-color: #45a049;
+  }
+  
+  .column:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .add-task input,
+  .add-task select {
+    background-color: #e9f7ef;
+    border-color: #d1f0d1;
+  }
+  
+  .add-task input::placeholder {
+    color: #888;
+  }
+  
