@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    f
+}
+
+.container {
+    position: sticky;
+    top: 0;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    background-color: aqua;
+    color: white;
+    padding: 10px ;
+    color: black;
+
+}
+
+.nav .name {
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: black;
+    margin-top: 10px;
+}
+
+
+.content {
+    padding: 20px;
+    font-size: 18px;
+}

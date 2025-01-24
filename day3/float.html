@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Two-Box Float Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            border: 2px solid #333;
+            padding: 15px;
+            overflow: hidden; 
+        }
+
+        .image-box {
+            width: 40%;
+            float: left;
+            margin-right: 20px;
+            
+            padding: 10px;
+        }
+
+        .text-box {
+            width: 55%;
+            float: left;
+            padding: 10px;
+        }
+
+        img {
+            width: 100%;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-box">
+            <img src="C:\Users\mohan\Downloads\2601516.jpg" alt="Sample Image">
+        </div>
+        <div class="text-box">
+            <h2>Float CSS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aliquid quis odio, deserunt minima exercitationem eligendi? Neque enim, quam ut necessitatibus ea aliquam sequi possimus cum suscipit minima nemo.</p>
+        </div>
+    </div>
+</body>
+</html>
