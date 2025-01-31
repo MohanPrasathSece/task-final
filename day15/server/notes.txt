@@ -1,0 +1,7 @@
+npm inti -y
+npm i express cors
+npm i nodemon -D
+
+npm  create vit@latest client
+npm install
+npm i axios
